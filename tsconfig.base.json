@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@nxdemo/web/shared": ["libs/web/shared/src/index.ts"],
+      "@nxdemo/web/ui": ["libs/web/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
