@@ -27,5 +27,16 @@
 9. Show dep graph
 # yarn nx dep-graph
 
+10. Run web projects
+# yarn nx run admin:serve
+# yarn nx run-many --target=serve --projects=web,admin --parallel=true
+
+11. Add storybook
+# yarn add @nrwl/storybook -D
+# yarn nx list @nrwl/react
+# yarn nx g @nrwl/react:storybook-configuration web-ui --generateStories
+# yarn nx run web-ui:storybook
+
+
 
 

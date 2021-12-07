@@ -1,6 +1,8 @@
 {
   "version": 2,
   "projects": {
+    "admin": "apps/admin",
+    "admin-e2e": "apps/admin-e2e",
     "web": "apps/web",
     "web-e2e": "apps/web-e2e",
     "web-shared": "libs/web/shared",
